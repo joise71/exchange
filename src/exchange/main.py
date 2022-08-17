@@ -17,6 +17,7 @@ def main(exchange):
                     exchange.get_operation_rate()
                     exchange.exchange()
                     exchange.update_balance()
+                    exchange.get_wallet_balance('wallet.csv')
                     exchange.write_log()
                     exchange.print_operation()
                     exchange.update_values()
